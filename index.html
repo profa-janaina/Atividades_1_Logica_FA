@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/imagem/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imagem/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imagem/favicon-16x16.png">
+
+    <title>Atividades divertidas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <section id="basicSection" class="ActivitySection">
+        <div class="container text-center">
+
+          <div class="heading1">
+          <img src="https://i.postimg.cc/HL76C7Rj/Logo-sem-fundo.png" width="70" height="70">
+          &nbsp;&nbsp;&nbsp;
+          <h1> ESQUADRÃO PROFES</h1></div>
+          <br><br>
+
+          <div class="section-name"> <h2>Aula 1: Introdução à lógica de programação</h2> </div>
+          <br><br>
+
+          <!-- Seção opções de atividades -->
+          <div class="row basic" id="GameSection">                
+            <div class="col-md-3"> 
+              <div onclick="sequencia()" class="gamethumb thumbnailgray">     
+                   <img src="/imagem/sequencia_animal.png" alt="Jogo de Sequencia Animal" title="Sequencia Animal" class="img-responsive img-fluid">
+                    <div class="text-games">Atividade 1</div>
+              </div>                      
+            </div>  
+            
+            <div class="col-md-3"> 
+              <div onclick="tictactoe()" class="gamethumb thumbnailgray">                
+                   <img src="/imagem/jogo_velha.png" alt="Jogo da velha" title="Jogo da velha" class="img-responsive img-fluid">
+                    <div class="text-games">Atividade 2</div>
+              </div>                      
+            </div> 
+
+            <div class="col-md-3"> 
+              <div onclick="alfabeto()" class="gamethumb thumbnailgray">                
+                   <img src="/imagem/alfabeto.png" alt="Jogo lógica do alfabeto" title="Lógica do alfabeto" class="img-responsive img-fluid">
+                    <div class="text-games">Atividade 3</div>
+              </div>                      
+            </div> 
+            <div class="col-md-3"> 
+              <div class="gamethumb thumbnailgray">  
+                <a href="https://www.codeforlife.education/rapidrouter/4/#myModal" target=_blank ><img src="/imagem/rapid_router.png" alt="Jogo Rapid router" title="Rapid router" class="img-responsive img-fluid"></a>             
+                  
+                    <div class="text-games">Atividade Adicional</div>
+              </div>                      
+            </div> 
+
+            <!--
+             <a href="http://https://www.kidlocoding.com/">Referência</a>  -->                   
+          </div> 
+          
+          <!-- Área do jogo -->
+          <div id="MostrarJogo">    
+          </div>
+
+        </div>
+      </section>
+      <div class="reference">
+        Fonte das atividades: coquinhos.com, codeforlife.education e construct.net
+    </div> 
+</body>
+</html>

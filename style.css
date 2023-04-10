@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(#f2e9f0 10%, #e24d85 150%, #9f8292 95%);
+  }
+      
+h2{
+    color: #721d40;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: dashed #141113;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.heading1{
+    display: inline-flex;
+    align-items: center;
+    color: #e24d85;
+    font-family: 'Oswald', sans-serif;
+}
+  
+.thumbnailgray {
+    background-color: #9f8292;
+}
+
+.thumbnailgray img{
+  width:100%
+  }
+
+.gamethumb {
+    margin-bottom: 20px;
+    padding: 4px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 210px;
+    cursor: pointer;        
+}
+
+.gamethumb a>img, .gamethumb>img {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 19px;  
+}
+
+.ActivitySection {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.text-games{
+  font-family: 'Oswald', sans-serif;
+  color:#f2e9f0;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	
+}
+
+.reference {
+  position: fixed;
+  color: #e24d85;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f2e9f0;
+  line-height: 2;
+  text-align: center;
+  text-shadow: 2px 2px 2px #9f8292;
+}
